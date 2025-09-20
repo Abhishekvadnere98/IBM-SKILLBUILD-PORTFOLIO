@@ -24,7 +24,7 @@ nav {
   /* background-color: rgb(18, 18, 62); */
   /* background-color: rgba(35, 35, 37, 0.77); */
   background-color: rgb(35, 35, 37); /* solid color */
-  padding: 0 20px;
+  padding: 0 10px;
   /* position: relative; */
   position: fixed;
   top: 0;            /* screen ke top pe chipka rahe */
@@ -192,8 +192,13 @@ footer {
     flex-wrap: wrap;
   }
 
+  /* hamburger toggle */
   .menu-toggle {
-    display: block;
+  display: block;
+  margin-left: auto; /* hamburger ko bilkul right push karega */
+  font-size: 28px;
+  cursor: pointer;
+  color: white;
   }
 
   .right ul {
@@ -231,9 +236,11 @@ footer {
   .rightSection img {
     margin-top: 20px;
   }
+  
 }
 
-@media (max-width: 480px) {
+/* for smaller screens */
+@media (max-width: 480px) {}
   .leftSection {
     font-size: 1.5rem;
   }
@@ -246,6 +253,9 @@ footer {
     font-size: 1rem;
     padding: 15px;
   }
+
+  .social-container {
+    text-align: center;
 }
 
 
