@@ -21,14 +21,22 @@ nav {
   justify-content: space-between;
   align-items: center;
   height: 80px;
-  background-color: rgb(18, 18, 62);
+  /* background-color: rgb(18, 18, 62); */
+  /* background-color: rgba(35, 35, 37, 0.77); */
+  background-color: rgb(35, 35, 37); /* solid color */
   padding: 0 20px;
-  position: relative;
+  /* position: relative; */
+  position: fixed;
+  top: 0;            /* screen ke top pe chipka rahe */
+  left: 0;
+  width: 100%;       /* full width cover kare */
+  z-index: 1000;     /* content ke upar rahe */
 }
 
 .left {
-  font-size: 1.3rem;
+  font-size: 2.5rem;
   font-weight: 600;
+  margin-left: 80px;
 }
 
 /* nav menu */
@@ -81,8 +89,10 @@ nav {
   display: flex;
   flex-direction: column; /* icons upar, buttons niche */
   align-items: flex-start;
-  gap: 15px; /* icons aur buttons ke beech gap */
-  margin-top: -80px;
+  gap: 20px; /* icons aur buttons ke beech gap */
+ margin-top: -0px;
+
+
   margin-left: 100px;
   margin-bottom:20px;
 }
