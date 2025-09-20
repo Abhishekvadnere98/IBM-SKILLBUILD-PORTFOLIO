@@ -90,7 +90,7 @@ nav {
   flex-direction: column; /* icons upar, buttons niche */
   align-items: flex-start;
   gap: 5px; /* icons aur buttons ke beech gap */
- margin-top: -150px;
+  margin-top: -90px;
 
 
   margin-left: 100px;
@@ -147,7 +147,7 @@ nav {
 .rightSection img {
   width: 80%;
   /* max-width: 300px; */
-  max-width: 500px;
+  max-width: 400px;
 }
 
 /* Sections */
