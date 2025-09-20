@@ -146,7 +146,8 @@ nav {
 
 .rightSection img {
   width: 80%;
-  max-width: 300px;
+  /* max-width: 300px; */
+  max-width: 500px;
 }
 
 /* Sections */
@@ -211,9 +212,6 @@ footer {
   .right ul.active {
     display: flex;
   } 
-
-
-
 
 
 
